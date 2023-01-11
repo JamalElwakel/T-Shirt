@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.colorinput{
+    height: 200px;
+}
+.mydiv{
+    background-color: transparent;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    
+
+}
+.tshirt{
+    font-size: 400px;
+}
+
+#mytext{
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: gold;
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    /* transform: translate(-50%, -50%); */
+}
+.font1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 60px;
+}
+.font2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+.font3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 60px;
+}
+.font4{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-size: 60px;
+}
+.font5{
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+}
+.font6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+@media print {
+    button{
+        display: none !important;
+    }
+    .leftside{
+        display: none;
+    }
+}
+

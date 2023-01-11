@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Fontwesome CSS -->
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Bootstap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dancing+Script&family=Lato&family=Moon+Dance&family=Poppins&family=Reem+Kufi+Fun&family=Roboto+Mono&family=Rubik+Moonrocks&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custome CSS -->
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 leftside">
+          <div class="formgroup text-center">
+            <!-- <input
+              type="color"
+              id="colorinput"
+              class="form-control w-50 mx-auto my-5 colorinput"
+            /> -->
+            <!-- <input type="range" id="rangeinput" class="  mx-auto my-5"> -->
+            <!-- <input type="number" id="numberinput" class="  mx-auto my-5 form-control"> -->
+            <!-- <button id="btn" class="btn btn-primary">click to change</button> -->
+            <input
+              type="color"
+              id="tshirtcolorinput"
+              class="form-control w-50 mx-auto my-5 colorinput"
+            />
+            <input type="text" id="textinput" class="form-control" />
+            <div class="formgroup mt-5">
+              <label>Choose Text Color</label>
+              <input
+                type="color"
+                id="textcolorinput"
+                class="form-control w-50 mx-auto"
+              />
+            </div>
+            <div class="buttons text-center my-5">
+              <button id="font1" class="btn btn-info">font1</button>
+              <button id="font2" class="btn btn-info">font2</button>
+              <button id="font3" class="btn btn-info">font3</button>
+              <button id="font4" class="btn btn-info">font4</button>
+              <button id="font5" class="btn btn-info">font5</button>
+              <button id="font6" class="btn btn-info">font6</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mydiv mx-auto my-5" id="mydiv">
+            <i class="fa fa-tshirt tshirt" id="tshirt"></i>
+            <span id="mytext"> Gamal Elwakel</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <button onclick="window.print()" class="btn btn-success form-control w-100 btn-lg ">
+        <i class="fa fa-print"></i>
+        Print T-Shirt</button>
+    </div>
+
+    <script src="JS/jquery-3.6.2.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
